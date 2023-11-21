@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Day1</title>
+      <link href="/2023/11/21/Day1/"/>
+      <url>/2023/11/21/Day1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="如果巅峰留不住-那就走来时的路"><a href="#如果巅峰留不住-那就走来时的路" class="headerlink" title="如果巅峰留不住 那就走来时的路"></a>如果巅峰留不住 那就走来时的路</h1><p>非常头疼的是一开始我喜欢折腾导致原来的网站404 在我长期的摆烂和疯狂谷歌Stack overflow都没有找到解决的方法后 我选择一切从头开始 那么这次我就走极简风格 我就把这个博客很大概率上用来存我的thoughts </p><p>最近发生了很多事情 good or bad 有时候让我措不及防 让我不知道如何应对的时候 我选择戴上耳机 进入另外一个世界 好吧 每次又想写东西的时候我电脑不在身旁 </p><p>不过总的来说 越成长 我开始把钱看的很重要 如果没有钱 我的生活将会很糟糕 虽然说穷有穷的活法 但是我不甘心就那种普通的工资 每当我骑行在厦门的道路上 每块脚下的砖头都值他妈一万 每当我看到别人用的是昂贵的东西 我就会难受 我曾经买得起 但是当我脱离了父母的给予 想要通过自己的努力去获得的时候 显得很渺小 所以这些东西一直激励着我 哪怕会很难 我也不想要放弃 我也想要坚持和克服</p><p>Anyway!good night!</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Thoughts </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Dairy </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2023/11/20/hello-world/"/>
+      <url>/2023/11/20/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
