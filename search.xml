@@ -8,7 +8,7 @@
       <link href="/2023/11/26/Day4/"/>
       <url>/2023/11/26/Day4/</url>
       
-        <content type="html"><![CDATA[<h1 id="船需要一点点搭建"><a href="#船需要一点点搭建" class="headerlink" title="船需要一点点搭建"></a>船需要一点点搭建</h1><p>​    凡是都是从小做到大的 完成一件事情的道路上会有很多的困难和疑惑 但是我相信在现在来看 很多问题都是可以找到答案的 而这一切需要支持的前提是必须有强大的死磕精神</p><p>  这个周开始 我将把毕设作品内容开始以每个板块每个内容来逐个攻克 将不同的模块和代码给实现后最后完成其整个毕设的联调</p><p> 根据进度规划 这个周即按教学周第十一周 所需要完成的事情有</p><p><u>1.采购完目前需要的原材料</u></p><p><u>2.实现对气体传感器的硬件安装并实现代码部分的监测</u></p><p><u>3.通过结合OLED显示屏将监测到的数据反馈到上面</u></p><p><u>4.并且初步在代码部分实现当数据超过国标正常值后在OLED上做出提示.</u></p><p>最后在星期天更新出一周的成果以及附上代码及图片显示。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="船需要一点点搭建"><a href="#船需要一点点搭建" class="headerlink" title="船需要一点点搭建"></a>船需要一点点搭建</h1><p>​    凡是都是从小做到大的 完成一件事情的道路上会有很多的困难和疑惑 但是我相信在现在来看 很多问题都是可以找到答案的 而这一切需要支持的前提是必须有强大的死磕精神</p><p>  这个周开始 我将把毕设作品内容开始以每个板块每个内容来逐个攻克 将不同的模块和代码给实现后最后完成其整个毕设的联调</p><p> 根据进度规划 这个周即按教学周第十一周 所需要完成的事情有</p><p><u>1.采购完目前需要的原材料</u></p><p><u>2.实现对气体传感器的硬件安装并实现代码部分的监测</u></p><p><u>3.通过结合OLED显示屏将监测到的数据反馈到上面</u></p><p><u>4.并且初步在代码部分实现当数据超过国标正常值后在OLED上做出提示.</u></p><h2 id="采购清单"><a href="#采购清单" class="headerlink" title="采购清单"></a>采购清单</h2><table><thead><tr><th align="center">购买元器件</th><th align="center">数量</th><th align="center">单价</th></tr></thead><tbody><tr><td align="center">气体传感器MQ-2</td><td align="center">2</td><td align="center">7.64</td></tr><tr><td align="center">显示屏SPI 0.96寸</td><td align="center">1</td><td align="center">8.7</td></tr><tr><td align="center">杜邦线</td><td align="center">40</td><td align="center">1.7</td></tr><tr><td align="center">ESP8266开发板</td><td align="center">1</td><td align="center">11.40</td></tr><tr><td align="center">蜂鸣器</td><td align="center">1</td><td align="center">1</td></tr><tr><td align="center">塑料盒</td><td align="center">1</td><td align="center">4.3</td></tr><tr><td align="center"><strong>合计</strong></td><td align="center"></td><td align="center">46.38（4元邮费）</td></tr></tbody></table><p>最后在星期天更新出一周的成果以及附上代码及图片显示。</p>]]></content>
       
       
       <categories>
@@ -95,7 +95,7 @@
       
         <tags>
             
-            <tag> Thought </tag>
+            <tag> Thoughts </tag>
             
         </tags>
       
