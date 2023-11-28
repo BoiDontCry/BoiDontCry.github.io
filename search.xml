@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>test images</title>
+      <link href="/2023/11/28/test-images/"/>
+      <url>/2023/11/28/test-images/</url>
+      
+        <content type="html"><![CDATA[<p><img src="F:\裤兜里面嘞\言叶之庭.jpg" alt="言叶之庭"></p><p>this is a test of images function</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Day4</title>
       <link href="/2023/11/26/Day4/"/>
       <url>/2023/11/26/Day4/</url>
