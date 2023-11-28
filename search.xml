@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>test links</title>
+      <link href="/2023/11/28/test-links/"/>
+      <url>/2023/11/28/test-links/</url>
+      
+        <content type="html"><![CDATA[<p>this is a post to test the likes whether works</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test images</title>
       <link href="/2023/11/28/test-images/"/>
       <url>/2023/11/28/test-images/</url>
