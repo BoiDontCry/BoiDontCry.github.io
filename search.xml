@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>test upload</title>
+      <link href="/2023/11/30/test-upload/"/>
+      <url>/2023/11/30/test-upload/</url>
+      
+        <content type="html"><![CDATA[<p> 测试内容是否可以正确上传到服务器</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Day7</title>
       <link href="/2023/11/30/Day7/"/>
       <url>/2023/11/30/Day7/</url>
