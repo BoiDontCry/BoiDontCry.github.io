@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Day7</title>
+      <link href="/2023/11/30/Day7/"/>
+      <url>/2023/11/30/Day7/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关于将GithubPage部署到国内服务器（腾讯-阿里）"><a href="#关于将GithubPage部署到国内服务器（腾讯-阿里）" class="headerlink" title="关于将GithubPage部署到国内服务器（腾讯&#x2F;阿里）"></a>关于将GithubPage部署到国内服务器（腾讯&#x2F;阿里）</h1><p>首先附上来自于安知鱼大佬的详细教学过程 </p><p><a href="https://blog.anheyu.com/posts/ce6a.html">https://blog.anheyu.com/posts/ce6a.html</a></p><p>大致内容我不做过多叙述 需要注意的是</p><p>1.<u>你需要一个服务器 可以是轻量服务器也可以是云服务器ECS 如果是国内服务器那么需要做好备案 如果是来自于香港或者新加坡的则不需要了 （Plus：最近阿里云有搞活动学生可免费领取代金卷购买轻量或者云服务器）</u></p><p><u>2.你需要一个域名 可以在阿里云&#x2F;腾讯云购买都可以</u></p><p><u>3.熟悉一些常用的Linux指令 毕竟服务器是在Linux框架搭建的 常用的：wq!（保存） 进入vim后按i进入insert模式</u> </p><p><u>以及ctrl+c结束这些等等你需要大致掌握</u></p><p>之所以最后还是要把博客放在国内服务器的原因还是因为Github加载过慢很容易抽风，同时素材图片加载除了通过图床外，还有就是用CDN加速，而大部分CDN加速是需要有备案的，那最后我只能先选择放到国内服务器后备案，其次我当时用的SMMS图床+CFCDN把debuff给叠满了 接下来就是等审核吧 问题很简单了</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 代码 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 服务器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test server</title>
       <link href="/2023/11/30/test-server/"/>
       <url>/2023/11/30/test-server/</url>
