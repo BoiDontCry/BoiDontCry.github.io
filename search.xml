@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>test server</title>
+      <link href="/2023/11/30/test-server/"/>
+      <url>/2023/11/30/test-server/</url>
+      
+        <content type="html"><![CDATA[<p>this page is here to test server</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Day6</title>
       <link href="/2023/11/29/Day6/"/>
       <url>/2023/11/29/Day6/</url>
