@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Day7-20:18</title>
+      <link href="/2023/11/30/Day7-20-18/"/>
+      <url>/2023/11/30/Day7-20-18/</url>
+      
+        <content type="html"><![CDATA[<h1 id="部署服务器让我难受的一比"><a href="#部署服务器让我难受的一比" class="headerlink" title="部署服务器让我难受的一比"></a>部署服务器让我难受的一比</h1><p>很成功的部署服务器失败了 从今天到晚上 部署阿里云轻量到云服务器 都失败了 看了好几篇不同人的教程资料最后还是出现了 无法成功将数据拉去到服务器的结果 而且还不给我报错！ 离谱 然后我也暂时不去备案网站了</p><p>目前的问题就是 又换回Github部署的服务器后 多多少少会慢会卡 图床加载也满的情况 不过无所谓能让我正常更新博客内容就行</p><p>今天第一阶段的毕设耗材以及到了 开始着手把第一段的烟雾检测的硬件部分和软件部分给实现吧 争取在周末的时候对其进行更新总结 就这样吧</p><p>最后测试一下代码的嵌入是否可以成功</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">void</span> <span class="title function_">setup</span><span class="params">()</span>&#123;</span><br><span class="line"> pinMode(<span class="number">13</span>,HIGH);</span><br><span class="line">&#125;</span><br><span class="line"><span class="type">void</span> <span class="title function_">loop</span><span class="params">()</span>&#123;</span><br><span class="line">digitalWrite(<span class="number">13</span>,HIGH);</span><br><span class="line">delay(<span class="number">500</span>);</span><br><span class="line">digitalWrite(<span class="number">13</span>,LOW);</span><br><span class="line">delay(<span class="number">500</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> Dairy </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Thoughts </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>test upload</title>
       <link href="/2023/11/30/test-upload/"/>
       <url>/2023/11/30/test-upload/</url>
