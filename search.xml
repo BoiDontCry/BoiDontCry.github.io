@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>testserver</title>
+      <link href="/2023/12/04/testserver/"/>
+      <url>/2023/12/04/testserver/</url>
+      
+        <content type="html"><![CDATA[<p> 测试阿里云服务器配置</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> test </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> test </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Day8</title>
       <link href="/2023/12/03/Day8/"/>
       <url>/2023/12/03/Day8/</url>
