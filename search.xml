@@ -29,31 +29,6 @@
     
     
     <entry>
-      <title>testserver</title>
-      <link href="/2023/12/04/testserver/"/>
-      <url>/2023/12/04/testserver/</url>
-      
-        <content type="html"><![CDATA[<p> 测试阿里云服务器配置 第二次!</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Day8</title>
       <link href="/2023/12/03/Day8/"/>
       <url>/2023/12/03/Day8/</url>
@@ -129,31 +104,6 @@
     
     
     <entry>
-      <title>test upload</title>
-      <link href="/2023/11/30/test-upload/"/>
-      <url>/2023/11/30/test-upload/</url>
-      
-        <content type="html"><![CDATA[<p> 测试内容是否可以正确上传到服务器</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Day7</title>
       <link href="/2023/11/30/Day7/"/>
       <url>/2023/11/30/Day7/</url>
@@ -171,31 +121,6 @@
         <tags>
             
             <tag> 服务器 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test server</title>
-      <link href="/2023/11/30/test-server/"/>
-      <url>/2023/11/30/test-server/</url>
-      
-        <content type="html"><![CDATA[<p>this page is here to test server</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
             
         </tags>
       
@@ -246,56 +171,6 @@
         <tags>
             
             <tag> Thoughts </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test links</title>
-      <link href="/2023/11/28/test-links/"/>
-      <url>/2023/11/28/test-links/</url>
-      
-        <content type="html"><![CDATA[<p>this is a post to test the likes whether works</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>test images</title>
-      <link href="/2023/11/28/test-images/"/>
-      <url>/2023/11/28/test-images/</url>
-      
-        <content type="html"><![CDATA[<p><img src="F:\image\言叶之庭.jpg" alt="言叶之庭"></p><p>this is a test of images function</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> test </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> test </tag>
             
         </tags>
       
