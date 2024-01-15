@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>嵌入式基础知识笔记V1</title>
+      <link href="/2024/01/12/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0V1/"/>
+      <url>/2024/01/12/%E5%B5%8C%E5%85%A5%E5%BC%8F%E5%9F%BA%E7%A1%80%E7%9F%A5%E8%AF%86%E7%AC%94%E8%AE%B0V1/</url>
+      
+        <content type="html"><![CDATA[<h1 id="嵌入式的基础知识"><a href="#嵌入式的基础知识" class="headerlink" title="嵌入式的基础知识"></a>嵌入式的基础知识</h1><h2 id="嵌入式处理器的分类"><a href="#嵌入式处理器的分类" class="headerlink" title="嵌入式处理器的分类"></a>嵌入式处理器的分类</h2><p><strong>MCU</strong>（Micro-Controller Unit） <strong>特点</strong>：资源有限、逻辑简单、特定任务</p><p><strong>应用</strong>：家电、汽车控制系统、物联网设备</p><p><strong>DSP</strong>（Digital Signal Processor）<strong>特点</strong>：在数字信号处理方面的高效运算能力、设计数学信号（音频，图像等）处理</p><p><strong>应用</strong>：无线通信、音视频处理、雷达系统</p><p><strong>FPGA</strong>（Field-Programmable Gate Array）<strong>特点</strong>;使用前可由用户编程的集成电路。灵活性、可重构性、高实时性</p><p><strong>应用</strong>：原型设计，加速计算，仪器测控</p><p><u><strong>其中经典的MCU有：89C51、STM32、ESP32</strong></u></p><p><strong>ARM</strong>: 一家英国公司，它设计了一系列低功耗、高性能的处理器架构，授权给其他公司。通常指MCU中的一种。</p><p><strong>树莓派</strong>:每个树莓派板都包含一个芯片，其中集成了处理器、内存、输入&#x2F;输出接口等组件。树莓派的SoC中包含了ARM架构的处理器核心。</p><p><strong>Arduino</strong>:是一个开源嵌入式硬件平台，用来供用户制作可交互式的嵌入式项目。</p><h2 id="硬件、软件、固件"><a href="#硬件、软件、固件" class="headerlink" title="硬件、软件、固件"></a>硬件、软件、固件</h2><p><strong>硬件&#x3D;处理器（思考、支配身体）+存储器（记忆）+传感器（获取知觉）+执行器（执行动作）</strong></p><p><strong>软件&#x3D;数据（知识）+可执行代码（行为逻辑）+操作系统（神经系统）</strong></p><p><strong>固件：而它则是硬件和软件的桥梁，存储在非易失性存储器中的代码和数据，用于控制硬件设备的操作和功能。通常包括控制器上运行的低级别代码，用于初始化硬件、加载操作系统或直接执行控制功能</strong></p><h2 id="典型MCU结构与功能"><a href="#典型MCU结构与功能" class="headerlink" title="典型MCU结构与功能"></a>典型MCU结构与功能</h2><p><strong>一台完整的计算机由：处理器、存储器、I&#x2F;O（输入输出）组成</strong></p><h3 id="1-处理器："><a href="#1-处理器：" class="headerlink" title="1.处理器："></a>1.处理器：</h3><p>1.CPU:运算，控制，寄存</p><p>2.时钟&gt;定时器&gt;中断&gt;看门狗</p><p>(时钟提供计时基准&gt;定时器)&gt;（定时器用于生成精确的时间延迟&gt;达到设定值触发中断&gt;响应时钟间隔&gt;执行指定任务）&gt;（看门狗用于监控系统运行状态，防止死锁或系统崩溃）</p><p><strong>这其中看门狗非常形象，它需要产生的指定任务定时发任务给它</strong></p><h3 id="2-存储器："><a href="#2-存储器：" class="headerlink" title="2.存储器："></a>2.存储器：</h3><p>ROM(只读存储器：智能读取，在出厂前写定内容，无法修改) </p><p><strong>程序启动 内核功能调用</strong></p><p>SRAM(静态随机存储器：读写速度较快，断电丢失)</p><p><strong>存储运行时临时性数据</strong></p><p>FLASH（闪存：读写速度适中，断电不丢失）</p><p><strong>存储程序代码、存储数据、存储固件</strong></p><h3 id="3-I-O（输入-输出）"><a href="#3-I-O（输入-输出）" class="headerlink" title="3.I&#x2F;O（输入&#x2F;输出）:"></a>3.I&#x2F;O（输入&#x2F;输出）:</h3><p><strong>而I&#x2F;O口可以从外设接口和无线通信两方面来进行讲述</strong></p><h4 id="一、模拟量与数字量的概念："><a href="#一、模拟量与数字量的概念：" class="headerlink" title="一、模拟量与数字量的概念："></a>一、模拟量与数字量的概念：</h4><p>模拟量：语音、温度、速度、电压（<strong>连续变化的信号，在一定范围内取一切数值且可以无限细分</strong>、<strong>计算机不能直接处理</strong>）</p><p>数字量：电灯的开关、数字图像、时钟（<strong>离散的信号，在离散的信号中取值，有限的、特定的数值</strong>）</p><h4 id="二、转化"><a href="#二、转化" class="headerlink" title="二、转化"></a>二、转化</h4><p>单片机将模拟量<strong>采样量化</strong>成数字量，再通过<strong>逆量化滤波</strong>将数字量转化成模拟量</p><p>模拟量和数字量之间的转换涉及两个主要过程：模数转换（ADC）和数模转换（DAC）。</p><ol><li><p><strong>模数转换（ADC）</strong>：这是将模拟信号（连续信号）转换为数字信号（离散信号）的过程。这通常涉及以下步骤：</p><ul><li><strong>采样</strong>：在固定的时间间隔内测量模拟信号的幅度。</li><li><strong>量化</strong>：将每次采样的模拟值转换成最接近的数字级别。在这个过程中，由于数字信号的离散性质，可能会产生一些误差。</li><li><strong>编码</strong>：将量化的结果转换为二进制数。</li></ul></li><li><p><strong>数模转换（DAC）</strong>：这是将数字信号转换回模拟信号的过程。这个过程通常包括：</p><ul><li><strong>解码</strong>：将数字信号的二进制数转换为相应的模拟级别。</li><li><strong>平滑</strong>：使用模拟滤波器消除数字信号的阶梯状特征，使输出信号更加平滑，接近原始的模拟信号。</li></ul></li></ol><p>这两种转换在各种电子设备和系统中都非常重要，比如音频处理、数字通信、数据采集系统等。模数转换使我们能够以数字形式处理、存储和传输模拟信号，而数模转换则允许数字信号控制模拟设备或被模拟设备读取。</p><h4 id="三、单片机与外部"><a href="#三、单片机与外部" class="headerlink" title="三、单片机与外部"></a>三、单片机与外部</h4><h5 id="1-GPIO-通用输入-输出"><a href="#1-GPIO-通用输入-输出" class="headerlink" title="1.GPIO-通用输入&#x2F;输出"></a>1.GPIO-通用输入&#x2F;输出</h5><p>与外部设备进行数字通信，是连接外设和传感器的通用接口。</p><h5 id="2-PWM-脉冲宽度调制"><a href="#2-PWM-脉冲宽度调制" class="headerlink" title="2.PWM-脉冲宽度调制"></a>2.PWM-脉冲宽度调制</h5><p>用于产生模拟信号，如控制电机速度、调光LED等。</p><p>快速切换的高低电平（PWM）会被电机平均为对应占空比的比较平滑的模拟信号</p><h5 id="3-数字与模拟"><a href="#3-数字与模拟" class="headerlink" title="3.数字与模拟"></a>3.数字与模拟</h5><p>模&#x2F;数转换器(ADC) 将模拟信号转换为数字形式，用于从传感器中读取模拟数据。</p><p>数&#x2F;模转换器(DAC) 将数字信号转换为模拟信号，用于向执行器生成模拟输出。</p><h4 id="四、芯片与芯片（串口通信的方式）"><a href="#四、芯片与芯片（串口通信的方式）" class="headerlink" title="四、芯片与芯片（串口通信的方式）"></a>四、芯片与芯片（串口通信的方式）</h4><table><thead><tr><th></th><th>通信方式</th><th>从属关系</th><th>速度</th><th>应用</th></tr></thead><tbody><tr><td>UART-通用异步收发器</td><td>异步（时间差异）、全双工（各干各的）</td><td>点对点</td><td>20kbps-10mbps</td><td>与计算机连接，烧录调试程序</td></tr><tr><td>串行外设接口（SPI)</td><td>同步 全双工</td><td>用片选信号选择从机</td><td>≤10mbps</td><td>与存储器，屏幕连接</td></tr><tr><td>I’C总线(I’C)</td><td>同步 、半双工（说话时不能插嘴）</td><td>用地址选择从机</td><td>100kbps-3.4mbps</td><td>与各种传感器连接</td></tr></tbody></table><h4 id="五、单片机与单片机"><a href="#五、单片机与单片机" class="headerlink" title="五、单片机与单片机"></a><strong>五、单片机与单片机</strong></h4><table><thead><tr><th></th><th>通信范围</th><th>功耗要求</th><th>数据速率</th><th>设备密度</th></tr></thead><tbody><tr><td>Wi-Fi</td><td>受限</td><td>高</td><td>10mbps-1gbps</td><td>高</td></tr><tr><td>ZigBee</td><td>受限</td><td>低</td><td>s250kbps</td><td>高</td></tr><tr><td>NB-loT</td><td>广</td><td>低</td><td>≤250kbps</td><td>低</td></tr><tr><td>Bluetooth</td><td>受限</td><td>低</td><td>≤100mbps</td><td>低</td></tr><tr><td>LoRa</td><td>广</td><td>低</td><td>100bps-10kbps</td><td>低</td></tr></tbody></table>]]></content>
+      
+      
+      <categories>
+          
+          <category> 大学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Day10</title>
       <link href="/2024/01/10/Day10/"/>
       <url>/2024/01/10/Day10/</url>
