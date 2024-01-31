@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>毕设作品硬件接线备忘录</title>
+      <link href="/2024/01/31/%E6%AF%95%E8%AE%BE%E4%BD%9C%E5%93%81%E7%A1%AC%E4%BB%B6%E6%8E%A5%E7%BA%BF%E5%A4%87%E5%BF%98%E5%BD%95/"/>
+      <url>/2024/01/31/%E6%AF%95%E8%AE%BE%E4%BD%9C%E5%93%81%E7%A1%AC%E4%BB%B6%E6%8E%A5%E7%BA%BF%E5%A4%87%E5%BF%98%E5%BD%95/</url>
+      
+        <content type="html"><![CDATA[<p> 以下接线说明是为了方便每一次接线实验，同时防止在实验中出现因为代码太多和硬件太多出现接线错误</p><p><strong>注意：在串口连接部分是RX-&gt;TX,TX-&gt;RX</strong></p><p><strong>蜂鸣器：I&#x2F;O—&gt;D2</strong></p><p><strong>MQ2: AO—&gt;A0</strong> <strong>5V电源</strong></p><p><strong>OLED: VCC&#x3D;5V SCL&#x3D;13 SDA&#x3D;11 RES&#x3D;8 DC&#x3D;9 CS&#x3D;10 BLK默认可以不接</strong> </p><p><strong>K210: Arduino TXD—&gt; USB RXD  Arduino GND—&gt; USB GND&#x2F;K210 GND</strong></p><p><strong>Arduino RXD—&gt; K210 TXD Arduino VCC—&gt;K210 5V</strong></p><p><strong>K210由于使用自启动 所以不需要额外接USB线</strong></p><p><strong>在K210中黄色线接VCC 白色线接GND 红色线接TXD</strong></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 大学 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 毕设 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>毕设Week6</title>
       <link href="/2024/01/23/%E6%AF%95%E8%AE%BEWeek6/"/>
       <url>/2024/01/23/%E6%AF%95%E8%AE%BEWeek6/</url>
